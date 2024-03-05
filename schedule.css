@@ -23,7 +23,7 @@ main {
     text-transform: capitalize;
 }
 .container {
-    width: 50%;
+    width: 80%;
     min-height: 50vh;
     background-color: #efefef;
     border-radius: 10px;
