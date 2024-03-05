@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    min-height: 100%;
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+main {
+    width: 100%;
+    height: 100vh;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-transform: capitalize;
+}
+.container {
+    width: 50%;
+    min-height: 50vh;
+    background-color: #efefef;
+    border-radius: 10px;
+    overflow: hidden;
+    padding: 20px 5px;
+}
+.nav {
+    width: 100%;
+    padding: 10px;
+    background-color: rgb(165, 165, 165);
+    display: flex;
+    align-items: center;
+    font-size: 2rem;
+    font-weight:1000;
+}
+.task-can {
+    width: 100%;
+    padding: 5px;
+    font-size: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+}
+.task-can > h1 {
+    font-size: 1.5rem;
+    font-weight: 100;
+}
+.task-can:hover {
+    background-color: #676767;
+}
